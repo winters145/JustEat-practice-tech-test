@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8015E8E028AD030F00557D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015E8DF28AD030F00557D28 /* AppDelegate.swift */; };
+		8015E8E228AD030F00557D28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015E8E128AD030F00557D28 /* SceneDelegate.swift */; };
+		8015E8E428AD030F00557D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015E8E328AD030F00557D28 /* ViewController.swift */; };
+		8015E8E728AD030F00557D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8015E8E528AD030F00557D28 /* Main.storyboard */; };
+		8015E8EA28AD030F00557D28 /* JustEat_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8015E8E828AD030F00557D28 /* JustEat_Test.xcdatamodeld */; };
+		8015E8EC28AD031100557D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8015E8EB28AD031100557D28 /* Assets.xcassets */; };
+		8015E8EF28AD031100557D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8015E8ED28AD031100557D28 /* LaunchScreen.storyboard */; };
+		8015E8FA28AD031100557D28 /* JustEat_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015E8F928AD031100557D28 /* JustEat_TestTests.swift */; };
+		8015E90428AD031100557D28 /* JustEat_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015E90328AD031100557D28 /* JustEat_TestUITests.swift */; };
+		8015E90628AD031100557D28 /* JustEat_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015E90528AD031100557D28 /* JustEat_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8015E8F628AD031100557D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8015E8D428AD030F00557D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8015E8DB28AD030F00557D28;
+			remoteInfo = "JustEat Test";
+		};
+		8015E90028AD031100557D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8015E8D428AD030F00557D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8015E8DB28AD030F00557D28;
+			remoteInfo = "JustEat Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8015E8DC28AD030F00557D28 /* JustEat Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustEat Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8015E8DF28AD030F00557D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8015E8E128AD030F00557D28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8015E8E328AD030F00557D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8015E8E628AD030F00557D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8015E8E928AD030F00557D28 /* JustEat_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustEat_Test.xcdatamodel; sourceTree = "<group>"; };
+		8015E8EB28AD031100557D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8015E8EE28AD031100557D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8015E8F028AD031100557D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8015E8F528AD031100557D28 /* JustEat TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JustEat TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8015E8F928AD031100557D28 /* JustEat_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEat_TestTests.swift; sourceTree = "<group>"; };
+		8015E8FF28AD031100557D28 /* JustEat TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JustEat TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8015E90328AD031100557D28 /* JustEat_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEat_TestUITests.swift; sourceTree = "<group>"; };
+		8015E90528AD031100557D28 /* JustEat_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEat_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8015E8D928AD030F00557D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8015E8F228AD031100557D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8015E8FC28AD031100557D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8015E8D328AD030F00557D28 = {
+			isa = PBXGroup;
+			children = (
+				8015E8DE28AD030F00557D28 /* JustEat Test */,
+				8015E8F828AD031100557D28 /* JustEat TestTests */,
+				8015E90228AD031100557D28 /* JustEat TestUITests */,
+				8015E8DD28AD030F00557D28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8015E8DD28AD030F00557D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8015E8DC28AD030F00557D28 /* JustEat Test.app */,
+				8015E8F528AD031100557D28 /* JustEat TestTests.xctest */,
+				8015E8FF28AD031100557D28 /* JustEat TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8015E8DE28AD030F00557D28 /* JustEat Test */ = {
+			isa = PBXGroup;
+			children = (
+				8015E8DF28AD030F00557D28 /* AppDelegate.swift */,
+				8015E8E128AD030F00557D28 /* SceneDelegate.swift */,
+				8015E8E328AD030F00557D28 /* ViewController.swift */,
+				8015E8E528AD030F00557D28 /* Main.storyboard */,
+				8015E8EB28AD031100557D28 /* Assets.xcassets */,
+				8015E8ED28AD031100557D28 /* LaunchScreen.storyboard */,
+				8015E8F028AD031100557D28 /* Info.plist */,
+				8015E8E828AD030F00557D28 /* JustEat_Test.xcdatamodeld */,
+			);
+			path = "JustEat Test";
+			sourceTree = "<group>";
+		};
+		8015E8F828AD031100557D28 /* JustEat TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8015E8F928AD031100557D28 /* JustEat_TestTests.swift */,
+			);
+			path = "JustEat TestTests";
+			sourceTree = "<group>";
+		};
+		8015E90228AD031100557D28 /* JustEat TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8015E90328AD031100557D28 /* JustEat_TestUITests.swift */,
+				8015E90528AD031100557D28 /* JustEat_TestUITestsLaunchTests.swift */,
+			);
+			path = "JustEat TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8015E8DB28AD030F00557D28 /* JustEat Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8015E90928AD031100557D28 /* Build configuration list for PBXNativeTarget "JustEat Test" */;
+			buildPhases = (
+				8015E8D828AD030F00557D28 /* Sources */,
+				8015E8D928AD030F00557D28 /* Frameworks */,
+				8015E8DA28AD030F00557D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JustEat Test";
+			productName = "JustEat Test";
+			productReference = 8015E8DC28AD030F00557D28 /* JustEat Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8015E8F428AD031100557D28 /* JustEat TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8015E90C28AD031100557D28 /* Build configuration list for PBXNativeTarget "JustEat TestTests" */;
+			buildPhases = (
+				8015E8F128AD031100557D28 /* Sources */,
+				8015E8F228AD031100557D28 /* Frameworks */,
+				8015E8F328AD031100557D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8015E8F728AD031100557D28 /* PBXTargetDependency */,
+			);
+			name = "JustEat TestTests";
+			productName = "JustEat TestTests";
+			productReference = 8015E8F528AD031100557D28 /* JustEat TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8015E8FE28AD031100557D28 /* JustEat TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8015E90F28AD031100557D28 /* Build configuration list for PBXNativeTarget "JustEat TestUITests" */;
+			buildPhases = (
+				8015E8FB28AD031100557D28 /* Sources */,
+				8015E8FC28AD031100557D28 /* Frameworks */,
+				8015E8FD28AD031100557D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8015E90128AD031100557D28 /* PBXTargetDependency */,
+			);
+			name = "JustEat TestUITests";
+			productName = "JustEat TestUITests";
+			productReference = 8015E8FF28AD031100557D28 /* JustEat TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8015E8D428AD030F00557D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8015E8DB28AD030F00557D28 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8015E8F428AD031100557D28 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8015E8DB28AD030F00557D28;
+					};
+					8015E8FE28AD031100557D28 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8015E8DB28AD030F00557D28;
+					};
+				};
+			};
+			buildConfigurationList = 8015E8D728AD030F00557D28 /* Build configuration list for PBXProject "JustEat Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8015E8D328AD030F00557D28;
+			productRefGroup = 8015E8DD28AD030F00557D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8015E8DB28AD030F00557D28 /* JustEat Test */,
+				8015E8F428AD031100557D28 /* JustEat TestTests */,
+				8015E8FE28AD031100557D28 /* JustEat TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8015E8DA28AD030F00557D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8015E8EF28AD031100557D28 /* LaunchScreen.storyboard in Resources */,
+				8015E8EC28AD031100557D28 /* Assets.xcassets in Resources */,
+				8015E8E728AD030F00557D28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8015E8F328AD031100557D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8015E8FD28AD031100557D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8015E8D828AD030F00557D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8015E8EA28AD030F00557D28 /* JustEat_Test.xcdatamodeld in Sources */,
+				8015E8E428AD030F00557D28 /* ViewController.swift in Sources */,
+				8015E8E028AD030F00557D28 /* AppDelegate.swift in Sources */,
+				8015E8E228AD030F00557D28 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8015E8F128AD031100557D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8015E8FA28AD031100557D28 /* JustEat_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8015E8FB28AD031100557D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8015E90428AD031100557D28 /* JustEat_TestUITests.swift in Sources */,
+				8015E90628AD031100557D28 /* JustEat_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8015E8F728AD031100557D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8015E8DB28AD030F00557D28 /* JustEat Test */;
+			targetProxy = 8015E8F628AD031100557D28 /* PBXContainerItemProxy */;
+		};
+		8015E90128AD031100557D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8015E8DB28AD030F00557D28 /* JustEat Test */;
+			targetProxy = 8015E90028AD031100557D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8015E8E528AD030F00557D28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8015E8E628AD030F00557D28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8015E8ED28AD031100557D28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8015E8EE28AD031100557D28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8015E90728AD031100557D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8015E90828AD031100557D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8015E90A28AD031100557D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAKY33UQKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JustEat Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwinterschladen.JustEat-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8015E90B28AD031100557D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAKY33UQKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JustEat Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwinterschladen.JustEat-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8015E90D28AD031100557D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAKY33UQKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwinterschladen.JustEat-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustEat Test.app/JustEat Test";
+			};
+			name = Debug;
+		};
+		8015E90E28AD031100557D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAKY33UQKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwinterschladen.JustEat-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustEat Test.app/JustEat Test";
+			};
+			name = Release;
+		};
+		8015E91028AD031100557D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAKY33UQKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwinterschladen.JustEat-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JustEat Test";
+			};
+			name = Debug;
+		};
+		8015E91128AD031100557D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAKY33UQKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwinterschladen.JustEat-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JustEat Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8015E8D728AD030F00557D28 /* Build configuration list for PBXProject "JustEat Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8015E90728AD031100557D28 /* Debug */,
+				8015E90828AD031100557D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8015E90928AD031100557D28 /* Build configuration list for PBXNativeTarget "JustEat Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8015E90A28AD031100557D28 /* Debug */,
+				8015E90B28AD031100557D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8015E90C28AD031100557D28 /* Build configuration list for PBXNativeTarget "JustEat TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8015E90D28AD031100557D28 /* Debug */,
+				8015E90E28AD031100557D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8015E90F28AD031100557D28 /* Build configuration list for PBXNativeTarget "JustEat TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8015E91028AD031100557D28 /* Debug */,
+				8015E91128AD031100557D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8015E8E828AD030F00557D28 /* JustEat_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8015E8E928AD030F00557D28 /* JustEat_Test.xcdatamodel */,
+			);
+			currentVersion = 8015E8E928AD030F00557D28 /* JustEat_Test.xcdatamodel */;
+			path = JustEat_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8015E8D428AD030F00557D28 /* Project object */;
+}
