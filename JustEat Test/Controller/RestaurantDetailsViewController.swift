@@ -45,7 +45,6 @@ class RestaurantDetailsViewController: UITableViewController {
         
         var cellContent = cell.defaultContentConfiguration()
         if indexPath.section == 0 {
-        
             cellContent.text = "\(currentRestaurant?.RatingAverage ?? 0)"
         } else {
             cellContent.text = cuisineString

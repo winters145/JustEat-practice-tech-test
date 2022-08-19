@@ -33,4 +33,8 @@ class JustEat_TestTests: XCTestCase {
         }
     }
 
+    func testRestaurantTableViewControllerSetContent() {
+        // given
+        var data
+    }
 }

@@ -23,16 +23,17 @@ class RestaurantTableViewController: UITableViewController {
     //MARK: - Table View data source methods
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return restaurants?.count ?? 1
+        return restaurants?.count ?? 0
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RestaurantCell", for: indexPath)
         var cellContent = cell.defaultContentConfiguration()
-
+        
         if let restaurant = restaurants?[indexPath.row] {
             cellContent = setContent(for: cell, from: restaurant)
         }
+        
         cell.contentConfiguration = cellContent
         return cell
     }
