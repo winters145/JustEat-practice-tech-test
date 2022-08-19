@@ -11,7 +11,7 @@ class RestaurantTableViewController: UITableViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
     
-    var restaurants: [Restaurant]?
+    var restaurants: [RestaurantProtocol]?
     var networkManager = RestaurantManager()
     
     override func viewDidLoad() {
@@ -47,7 +47,7 @@ class RestaurantTableViewController: UITableViewController {
     
     //MARK: - SetContent for cell method
     
-    func setContent(for cell: UITableViewCell, from restaurant: Restaurant) -> UIListContentConfiguration {
+    func setContent(for cell: UITableViewCell, from restaurant: RestaurantProtocol) -> UIListContentConfiguration {
         var content = cell.defaultContentConfiguration()
         
         content.text = restaurant.Name
@@ -71,7 +71,6 @@ class RestaurantTableViewController: UITableViewController {
     }
 }
 
-
 //MARK: - SearchBar methods
 
 extension RestaurantTableViewController: UISearchBarDelegate {
@@ -92,14 +91,14 @@ extension RestaurantTableViewController: UISearchBarDelegate {
 
 extension RestaurantTableViewController: RestaurantManagerDelegate {
     
-    func setRestaurants(_ restaurants: [Restaurant]) {
+    func setRestaurants(_ restaurants: [RestaurantProtocol]) {
         DispatchQueue.main.async {
             self.restaurants = restaurants
             self.tableView.reloadData()
         }
     }
     
-    func setImage(for restaurant: Restaurant?) -> UIImage? {
+    func setImage(for restaurant: RestaurantProtocol?) -> UIImage? {
         guard restaurant != nil else { return nil }
         var logoURLString = restaurant!.LogoUrl.absoluteString
         logoURLString.insert("s", at: logoURLString.index(logoURLString.startIndex, offsetBy: 4))

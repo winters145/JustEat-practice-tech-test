@@ -14,6 +14,9 @@ protocol RestaurantProtocol {
     var LogoUrl: URL { get }
     var IsOpenNow: Bool { get }
 }
+protocol CuisineProtocol {
+    var Name: String { get }
+}
 
 struct RestaurantData: Codable {
     let Restaurants: [Restaurant]
@@ -27,6 +30,6 @@ struct Restaurant: Codable, RestaurantProtocol {
     let IsOpenNow: Bool
 }
 
-struct Cuisine: Codable {
+struct Cuisine: Codable, CuisineProtocol {
     let Name: String
 }

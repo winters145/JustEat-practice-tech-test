@@ -9,7 +9,7 @@ import UIKit
 
 class RestaurantDetailsViewController: UITableViewController {
 
-    var currentRestaurant: Restaurant?
+    var currentRestaurant: RestaurantProtocol?
     var cuisines: [String] = []
     var cuisineString = ""
     var logo: UIImage?

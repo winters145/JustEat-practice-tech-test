@@ -8,8 +8,8 @@
 import Foundation
 
 protocol RestaurantManagerDelegate {
-    var restaurants: [Restaurant]? { get set }
-    func setRestaurants(_ restaurants: [Restaurant])
+    var restaurants: [RestaurantProtocol]? { get set }
+    func setRestaurants(_ restaurants: [RestaurantProtocol])
 }
 
 struct RestaurantManager {
